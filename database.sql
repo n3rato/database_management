@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CREATE Table genre(
     genre_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     genre_name VARCHAR(255) NOT NULL
@@ -36,3 +37,6 @@ CREATE Table favourite(
     Foreign Key (users_id) REFERENCES users(users_id),
     Foreign Key (movie_id) REFERENCES movie(movie_id)
 );
+=======
+
+>>>>>>> 98ae02a7e30f3e19242f398ef03bb79bbbf61c6c
